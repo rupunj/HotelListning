@@ -1,0 +1,5 @@
+2024-02-25 16:41:26.851 +05:30 [INF] Now listening on: https://localhost:7062
+2024-02-25 16:41:26.863 +05:30 [INF] Now listening on: http://localhost:5284
+2024-02-25 16:41:26.864 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-25 16:41:26.864 +05:30 [INF] Hosting environment: Development
+2024-02-25 16:41:26.864 +05:30 [INF] Content root path: /Users/rupunj/Projects/HotelListning/HotelListning
