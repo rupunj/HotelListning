@@ -1,0 +1,393 @@
+2024-02-28 09:06:38.326 +05:30 [INF] Now listening on: https://localhost:7062
+2024-02-28 09:06:38.344 +05:30 [INF] Now listening on: http://localhost:5284
+2024-02-28 09:06:38.345 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-28 09:06:38.345 +05:30 [INF] Hosting environment: Development
+2024-02-28 09:06:38.345 +05:30 [INF] Content root path: /Users/rupunj/Projects/HotelListning/HotelListning
+2024-02-28 09:06:40.760 +05:30 [INF] HTTP GET /apple-touch-icon-precomposed.png responded 404 in 1.0161 ms
+2024-02-28 09:06:40.762 +05:30 [INF] HTTP GET /apple-touch-icon.png responded 404 in 0.1771 ms
+2024-02-28 09:07:00.664 +05:30 [INF] HTTP GET /api/Countires/1 responded 200 in 760.2698 ms
+2024-02-28 09:07:31.210 +05:30 [INF] HTTP DELETE /api/Countires/5 responded 204 in 118.6549 ms
+2024-02-28 09:07:31.217 +05:30 [ERR] Failed executing DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Countries]
+OUTPUT 1
+WHERE [Id] = @p0;
+2024-02-28 09:08:18.757 +05:30 [ERR] HTTP PUT /api/Countires/1 responded 500 in 378.7472 ms
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.CreatedAtActionResult.OnFormatting(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-02-28 09:08:18.765 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.CreatedAtActionResult.OnFormatting(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-02-28 09:09:50.541 +05:30 [INF] Now listening on: https://localhost:7062
+2024-02-28 09:09:50.558 +05:30 [INF] Now listening on: http://localhost:5284
+2024-02-28 09:09:50.559 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-28 09:09:50.560 +05:30 [INF] Hosting environment: Development
+2024-02-28 09:09:50.560 +05:30 [INF] Content root path: /Users/rupunj/Projects/HotelListning/HotelListning
+2024-02-28 09:10:46.269 +05:30 [INF] Now listening on: https://localhost:7062
+2024-02-28 09:10:46.281 +05:30 [INF] Now listening on: http://localhost:5284
+2024-02-28 09:10:46.282 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-28 09:10:46.282 +05:30 [INF] Hosting environment: Development
+2024-02-28 09:10:46.282 +05:30 [INF] Content root path: /Users/rupunj/Projects/HotelListning/HotelListning
+2024-02-28 09:10:51.476 +05:30 [INF] HTTP PUT /api/Countires/1 responded 201 in 695.5972 ms
+2024-02-28 09:12:15.103 +05:30 [INF] Now listening on: https://localhost:7062
+2024-02-28 09:12:15.118 +05:30 [INF] Now listening on: http://localhost:5284
+2024-02-28 09:12:15.119 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-28 09:12:15.119 +05:30 [INF] Hosting environment: Development
+2024-02-28 09:12:15.119 +05:30 [INF] Content root path: /Users/rupunj/Projects/HotelListning/HotelListning
+2024-02-28 09:12:29.371 +05:30 [INF] HTTP GET /api/Countires responded 200 in 568.7058 ms
+2024-02-28 09:13:46.909 +05:30 [INF] HTTP POST /api/Countires responded 201 in 133.6810 ms
+2024-02-28 09:13:46.940 +05:30 [ERR] Failed executing DbCommand (48ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:21:12.429 +05:30 [INF] HTTP POST /api/Countires responded 201 in 139.6060 ms
+2024-02-28 09:21:12.461 +05:30 [ERR] An error occurred using the connection to database 'HotelListning' on server 'localhost'.
+2024-02-28 09:21:19.469 +05:30 [INF] HTTP GET /api/Countires responded 200 in 15.2028 ms
+2024-02-28 09:21:34.763 +05:30 [INF] HTTP POST /api/Countires responded 201 in 30.3580 ms
+2024-02-28 09:21:34.766 +05:30 [ERR] Failed executing DbCommand (22ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:21:44.959 +05:30 [INF] HTTP GET /api/Countires responded 200 in 125.9324 ms
+2024-02-28 09:22:16.981 +05:30 [INF] HTTP POST /api/Countires responded 201 in 8.2209 ms
+2024-02-28 09:22:16.987 +05:30 [ERR] Failed executing DbCommand (9ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:22:22.258 +05:30 [INF] HTTP GET /api/Countires responded 200 in 166.4265 ms
+2024-02-28 09:22:40.840 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 9.4405 ms
+2024-02-28 09:22:57.435 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 8.0640 ms
+2024-02-28 09:22:57.439 +05:30 [ERR] Failed executing DbCommand (6ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:23:13.018 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 13.2326 ms
+2024-02-28 09:23:13.026 +05:30 [ERR] An error occurred using the connection to database 'HotelListning' on server 'localhost'.
+2024-02-28 09:23:15.548 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 11.0196 ms
+2024-02-28 09:23:15.551 +05:30 [ERR] Failed executing DbCommand (11ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:23:21.025 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 304.0558 ms
+2024-02-28 09:23:34.799 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 24.1346 ms
+2024-02-28 09:23:34.803 +05:30 [ERR] Failed executing DbCommand (19ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:23:39.476 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 37.3703 ms
+2024-02-28 09:24:36.122 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 17.8268 ms
+2024-02-28 09:24:36.151 +05:30 [ERR] Failed executing DbCommand (7ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:24:45.872 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 365.5641 ms
+2024-02-28 09:26:50.428 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 41.6810 ms
+2024-02-28 09:27:04.299 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 7.5498 ms
+2024-02-28 09:27:04.306 +05:30 [ERR] Failed executing DbCommand (9ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:27:09.118 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 63.2475 ms
+2024-02-28 09:30:22.158 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 57282.6361 ms
+2024-02-28 09:30:33.961 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 11.9440 ms
+2024-02-28 09:30:40.922 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 269.8055 ms
+2024-02-28 09:31:11.133 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 25071.6182 ms
+2024-02-28 09:31:11.136 +05:30 [ERR] Failed executing DbCommand (9ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:31:16.806 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 126.9369 ms
+2024-02-28 09:31:16.811 +05:30 [ERR] An error occurred using the connection to database 'HotelListning' on server 'localhost'.
+2024-02-28 09:31:18.940 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 7.4010 ms
+2024-02-28 09:31:18.954 +05:30 [ERR] Failed executing DbCommand (12ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:31:23.472 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 30.0503 ms
+2024-02-28 09:31:30.667 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 7.9137 ms
+2024-02-28 09:31:30.671 +05:30 [ERR] Failed executing DbCommand (8ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:31:32.821 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 119.3369 ms
+2024-02-28 09:31:32.823 +05:30 [ERR] An error occurred using the connection to database 'HotelListning' on server 'localhost'.
+2024-02-28 09:31:34.035 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 3.8860 ms
+2024-02-28 09:31:34.039 +05:30 [ERR] Failed executing DbCommand (6ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:31:35.723 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 179.4543 ms
+2024-02-28 09:31:35.726 +05:30 [ERR] An error occurred using the connection to database '' on server ''.
+2024-02-28 09:31:36.960 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 3.9507 ms
+2024-02-28 09:31:36.965 +05:30 [ERR] Failed executing DbCommand (4ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:31:38.087 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 99.4132 ms
+2024-02-28 09:31:38.088 +05:30 [ERR] An error occurred using the connection to database 'HotelListning' on server 'localhost'.
+2024-02-28 09:31:40.826 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 8.2658 ms
+2024-02-28 09:31:55.731 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 4.1238 ms
+2024-02-28 09:31:55.734 +05:30 [ERR] Failed executing DbCommand (4ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:32:05.454 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 371.3148 ms
+2024-02-28 09:32:16.271 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 6.9399 ms
+2024-02-28 09:32:16.328 +05:30 [ERR] Failed executing DbCommand (60ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:32:21.691 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 101.9708 ms
+2024-02-28 09:32:33.785 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 13.9255 ms
+2024-02-28 09:32:48.993 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 14.2944 ms
+2024-02-28 09:32:54.442 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 8.7112 ms
+2024-02-28 09:32:54.445 +05:30 [ERR] Failed executing DbCommand (6ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:32:56.148 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 140.2245 ms
+2024-02-28 09:32:56.174 +05:30 [ERR] An error occurred using the connection to database 'HotelListning' on server 'localhost'.
+2024-02-28 09:32:57.566 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 5.1726 ms
+2024-02-28 09:32:57.568 +05:30 [ERR] Failed executing DbCommand (6ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:32:59.678 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 96.1841 ms
+2024-02-28 09:32:59.680 +05:30 [ERR] An error occurred using the connection to database 'HotelListning' on server 'localhost'.
+2024-02-28 09:33:01.469 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 5.5284 ms
+2024-02-28 09:33:01.471 +05:30 [ERR] Failed executing DbCommand (6ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:33:04.907 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 87.7551 ms
+2024-02-28 09:33:53.931 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 58.5364 ms
+2024-02-28 09:33:53.936 +05:30 [ERR] Failed executing DbCommand (8ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:34:06.601 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 153.7630 ms
+2024-02-28 09:34:06.603 +05:30 [ERR] An error occurred using the connection to database 'HotelListning' on server 'localhost'.
+2024-02-28 09:34:24.425 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 4.4713 ms
+2024-02-28 09:34:24.428 +05:30 [ERR] Failed executing DbCommand (5ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:34:44.320 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 106.8391 ms
+2024-02-28 09:34:44.374 +05:30 [ERR] An error occurred using the connection to database 'HotelListning' on server 'localhost'.
+2024-02-28 09:34:51.272 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 10.4596 ms
+2024-02-28 09:34:51.281 +05:30 [ERR] Failed executing DbCommand (12ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:35:01.194 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 155.5475 ms
+2024-02-28 09:35:01.197 +05:30 [ERR] An error occurred using the connection to database 'HotelListning' on server 'localhost'.
+2024-02-28 09:35:15.671 +05:30 [INF] HTTP POST /api/Countires/ responded 400 in 28.2115 ms
+2024-02-28 09:35:20.858 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 9.2922 ms
+2024-02-28 09:35:20.861 +05:30 [ERR] Failed executing DbCommand (8ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:35:48.369 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 15.7132 ms
+2024-02-28 09:35:48.443 +05:30 [ERR] An error occurred using the connection to database 'HotelListning' on server 'localhost'.
+2024-02-28 09:35:49.069 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 4.5676 ms
+2024-02-28 09:35:49.073 +05:30 [ERR] Failed executing DbCommand (7ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:36:18.621 +05:30 [INF] Now listening on: https://localhost:7062
+2024-02-28 09:36:18.635 +05:30 [INF] Now listening on: http://localhost:5284
+2024-02-28 09:36:18.636 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-28 09:36:18.636 +05:30 [INF] Hosting environment: Development
+2024-02-28 09:36:18.636 +05:30 [INF] Content root path: /Users/rupunj/Projects/HotelListning/HotelListning
+2024-02-28 09:36:32.805 +05:30 [INF] Now listening on: https://localhost:7062
+2024-02-28 09:36:32.818 +05:30 [INF] Now listening on: http://localhost:5284
+2024-02-28 09:36:32.819 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-28 09:36:32.819 +05:30 [INF] Hosting environment: Development
+2024-02-28 09:36:32.819 +05:30 [INF] Content root path: /Users/rupunj/Projects/HotelListning/HotelListning
+2024-02-28 09:36:48.608 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 513.9630 ms
+2024-02-28 09:36:48.621 +05:30 [ERR] An error occurred using the connection to database 'HotelListning' on server 'localhost'.
+2024-02-28 09:37:04.880 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 201.1220 ms
+2024-02-28 09:37:23.135 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 50.3442 ms
+2024-02-28 09:37:23.144 +05:30 [ERR] Failed executing DbCommand (23ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:37:26.347 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 95.6162 ms
+2024-02-28 09:37:30.778 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 169.4718 ms
+2024-02-28 09:37:56.963 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 10936.1056 ms
+2024-02-28 09:37:56.966 +05:30 [ERR] Failed executing DbCommand (5ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:38:01.566 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 49.2755 ms
+2024-02-28 09:39:18.584 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 34.8594 ms
+2024-02-28 09:39:34.008 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 111.8639 ms
+2024-02-28 09:40:32.684 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 23385.4300 ms
+2024-02-28 09:40:32.789 +05:30 [ERR] Failed executing DbCommand (108ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:40:39.537 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 310.6107 ms
+2024-02-28 09:41:59.684 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 16.1691 ms
+2024-02-28 09:42:09.965 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 7409.1745 ms
+2024-02-28 09:42:09.966 +05:30 [ERR] Failed executing DbCommand (4ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:42:15.571 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 347.0603 ms
+2024-02-28 09:42:51.104 +05:30 [INF] Now listening on: https://localhost:7062
+2024-02-28 09:42:51.116 +05:30 [INF] Now listening on: http://localhost:5284
+2024-02-28 09:42:51.117 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-28 09:42:51.118 +05:30 [INF] Hosting environment: Development
+2024-02-28 09:42:51.118 +05:30 [INF] Content root path: /Users/rupunj/Projects/HotelListning/HotelListning
+2024-02-28 09:43:07.057 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 622.5260 ms
+2024-02-28 09:43:11.182 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 127.6398 ms
+2024-02-28 09:43:11.188 +05:30 [ERR] Failed executing DbCommand (22ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:43:35.119 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 26.2258 ms
+2024-02-28 09:43:35.132 +05:30 [ERR] An error occurred using the connection to database 'HotelListning' on server 'localhost'.
+2024-02-28 09:43:39.029 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 19.9599 ms
+2024-02-28 09:44:00.606 +05:30 [INF] Now listening on: https://localhost:7062
+2024-02-28 09:44:00.618 +05:30 [INF] Now listening on: http://localhost:5284
+2024-02-28 09:44:00.619 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-28 09:44:00.619 +05:30 [INF] Hosting environment: Development
+2024-02-28 09:44:00.619 +05:30 [INF] Content root path: /Users/rupunj/Projects/HotelListning/HotelListning
+2024-02-28 09:44:09.850 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 601.1829 ms
+2024-02-28 09:44:17.747 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 167.5896 ms
+2024-02-28 09:44:21.370 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 24.7311 ms
+2024-02-28 09:44:28.803 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 8.5648 ms
+2024-02-28 09:44:28.873 +05:30 [ERR] Failed executing DbCommand (11ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:44:32.212 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 197.6595 ms
+2024-02-28 09:44:41.794 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 9.9963 ms
+2024-02-28 09:44:41.799 +05:30 [ERR] Failed executing DbCommand (8ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:44:44.776 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 174.5335 ms
+2024-02-28 09:44:49.287 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 108.4488 ms
+2024-02-28 09:44:52.464 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 9.7000 ms
+2024-02-28 09:45:02.283 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 6.2045 ms
+2024-02-28 09:45:02.286 +05:30 [ERR] Failed executing DbCommand (6ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:45:03.814 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 54.9683 ms
+2024-02-28 09:45:03.824 +05:30 [ERR] An error occurred using the connection to database 'HotelListning' on server 'localhost'.
+2024-02-28 09:45:06.801 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 143.6433 ms
+2024-02-28 09:45:13.757 +05:30 [INF] Now listening on: https://localhost:7062
+2024-02-28 09:45:13.768 +05:30 [INF] Now listening on: http://localhost:5284
+2024-02-28 09:45:13.770 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-28 09:45:13.770 +05:30 [INF] Hosting environment: Development
+2024-02-28 09:45:13.770 +05:30 [INF] Content root path: /Users/rupunj/Projects/HotelListning/HotelListning
+2024-02-28 09:45:18.747 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 573.8907 ms
+2024-02-28 09:45:23.109 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 126.8265 ms
+2024-02-28 09:45:26.210 +05:30 [INF] HTTP GET /api/Countires/ responded 200 in 73.6545 ms
+2024-02-28 09:45:45.693 +05:30 [INF] HTTP POST /api/Countires/ responded 201 in 16.0102 ms
+2024-02-28 09:45:45.734 +05:30 [ERR] Failed executing DbCommand (36ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Countries] ([Name], [ShortName])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-02-28 09:47:15.594 +05:30 [INF] HTTP GET /api/Countires/2 responded 200 in 440.0292 ms
+2024-02-28 09:52:03.063 +05:30 [INF] HTTP PUT /api/Countires/2 responded 400 in 29.1817 ms
