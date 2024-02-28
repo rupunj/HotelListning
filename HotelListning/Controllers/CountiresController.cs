@@ -68,14 +68,14 @@ namespace HotelListning.Controllers
         }
 
         [HttpPost]
-        public ActionResult<ICollection<Country>> CreateCountry(CreateCountryDto countryDto)
+        public async Task< ActionResult<ICollection<Country>>> CreateCountry(CreateCountryDto countryDto)
         {
 
 
 
             var country = _mapper.Map<Country>(countryDto);
 
-            _repository.AddAsync(country);
+           await  _repository.AddAsync(country);
             //_context.Countries.Add(country);
             //_context.SaveChanges();
 

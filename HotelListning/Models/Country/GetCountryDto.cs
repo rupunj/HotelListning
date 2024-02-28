@@ -1,4 +1,6 @@
 ﻿using System;
+using HotelListning.Models.Hotel;
+
 namespace HotelListning.Models
 {
 	public class GetCountryDto :BaseCountry

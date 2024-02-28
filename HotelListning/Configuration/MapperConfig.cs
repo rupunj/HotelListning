@@ -2,6 +2,9 @@
 using AutoMapper;
 using HotelListning.Models;
 using HotelListning.Data;
+using HotelListning.Models.Hotel;
+using HotelListning.Models.Country;
+
 namespace HotelListning.Configuration
 {
 	public class MapperConfig : Profile
@@ -13,6 +16,10 @@ namespace HotelListning.Configuration
 			CreateMap<GetCoutryDetailsDto, Country>().ReverseMap();
 			CreateMap<Hotel, GetHotelDto>().ReverseMap();
 			CreateMap<UpdateCoutryDto, Country>();
+			CreateMap<CreateHotelDto, Hotel>();
+			CreateMap<UpdateHotelDto, Hotel>();
+			CreateMap<Hotel, GetHotelCountryDto>();
+			CreateMap<Country, GetCountryDetailsDto>();
 		}
 	}
 }

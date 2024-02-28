@@ -17,6 +17,7 @@ builder.Services.AddDbContext<HotelListningDbContext>(options =>
 
 builder.Services.AddScoped(typeof(IGenaricRepository<>), typeof(GenaricRepository<>));
 builder.Services.AddScoped<ICountriesRepository, CountriesRepository>();
+builder.Services.AddScoped<IHotelsRepository, HotelsRepository>();
 
 
 builder.Services.AddControllers();
