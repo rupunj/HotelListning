@@ -4,6 +4,7 @@ using HotelListning.Models;
 using HotelListning.Data;
 using HotelListning.Models.Hotel;
 using HotelListning.Models.Country;
+using HotelListning.Models.User;
 
 namespace HotelListning.Configuration
 {
@@ -20,6 +21,10 @@ namespace HotelListning.Configuration
 			CreateMap<UpdateHotelDto, Hotel>();
 			CreateMap<Hotel, GetHotelCountryDto>();
 			CreateMap<Country, GetCountryDetailsDto>();
+
+			CreateMap<ApiUserDto, ApiUser>().ReverseMap();
+
+
 		}
 	}
 }

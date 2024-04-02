@@ -1348,3 +1348,14 @@ Country
 2024-02-28 15:09:22.554 +05:30 [INF] Hosting environment: Development
 2024-02-28 15:09:22.554 +05:30 [INF] Content root path: /Users/rupunj/Projects/HotelListning/HotelListning
 2024-02-28 15:09:26.672 +05:30 [INF] HTTP GET /api/hotels/1 responded 200 in 650.3122 ms
+2024-02-28 18:22:34.263 +05:30 [INF] Now listening on: https://localhost:7062
+2024-02-28 18:22:34.276 +05:30 [INF] Now listening on: http://localhost:5284
+2024-02-28 18:22:34.277 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-28 18:22:34.277 +05:30 [INF] Hosting environment: Development
+2024-02-28 18:22:34.277 +05:30 [INF] Content root path: /Users/rupunj/Projects/HotelListning/HotelListning
+2024-02-28 18:22:51.534 +05:30 [INF] HTTP GET /api/hotels/1 responded 200 in 1115.9603 ms
+2024-02-28 18:45:13.456 +05:30 [INF] Now listening on: https://localhost:7062
+2024-02-28 18:45:13.479 +05:30 [INF] Now listening on: http://localhost:5284
+2024-02-28 18:45:13.481 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-28 18:45:13.482 +05:30 [INF] Hosting environment: Development
+2024-02-28 18:45:13.482 +05:30 [INF] Content root path: /Users/rupunj/Projects/HotelListning/HotelListning

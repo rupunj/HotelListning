@@ -1,0 +1,59 @@
+2024-04-02 09:22:38.983 +05:30 [INF] Now listening on: https://localhost:7062
+2024-04-02 09:22:38.994 +05:30 [INF] Now listening on: http://localhost:5284
+2024-04-02 09:22:38.996 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-02 09:22:38.996 +05:30 [INF] Hosting environment: Development
+2024-04-02 09:22:38.996 +05:30 [INF] Content root path: /Users/rupunj/Projects/HotelListning/HotelListning
+2024-04-02 09:22:40.744 +05:30 [INF] HTTP GET /apple-touch-icon-precomposed.png responded 404 in 2.0782 ms
+2024-04-02 09:22:40.747 +05:30 [INF] HTTP GET /apple-touch-icon.png responded 404 in 0.2194 ms
+2024-04-02 09:29:02.533 +05:30 [INF] HTTP POST /api/Accounts/Register responded 400 in 201.1996 ms
+2024-04-02 09:29:31.948 +05:30 [INF] HTTP POST /api/Accounts/Register responded 400 in 13.1106 ms
+2024-04-02 09:31:46.562 +05:30 [INF] HTTP GET /api/accounts/register responded 405 in 0.9453 ms
+2024-04-02 09:32:01.282 +05:30 [INF] HTTP POST /api/accounts/register responded 400 in 12.0364 ms
+2024-04-02 09:33:49.723 +05:30 [INF] HTTP POST /api/accounts/register responded 400 in 74750.2645 ms
+2024-04-02 09:34:05.929 +05:30 [INF] HTTP POST /api/accounts/register responded 400 in 4715.9069 ms
+2024-04-02 09:35:21.559 +05:30 [INF] Now listening on: https://localhost:7062
+2024-04-02 09:35:21.571 +05:30 [INF] Now listening on: http://localhost:5284
+2024-04-02 09:35:21.572 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-02 09:35:21.572 +05:30 [INF] Hosting environment: Development
+2024-04-02 09:35:21.572 +05:30 [INF] Content root path: /Users/rupunj/Projects/HotelListning/HotelListning
+2024-04-02 09:35:26.395 +05:30 [INF] HTTP POST /api/accounts/register responded 400 in 152.3282 ms
+2024-04-02 09:36:11.493 +05:30 [INF] HTTP POST /api/accounts/register responded 200 in 830.8499 ms
+2024-04-02 09:36:16.421 +05:30 [INF] HTTP POST /api/accounts/register responded 400 in 76.1432 ms
+2024-04-02 10:04:12.429 +05:30 [INF] Now listening on: https://localhost:7062
+2024-04-02 10:04:12.441 +05:30 [INF] Now listening on: http://localhost:5284
+2024-04-02 10:04:12.443 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-02 10:04:12.443 +05:30 [INF] Hosting environment: Development
+2024-04-02 10:04:12.443 +05:30 [INF] Content root path: /Users/rupunj/Projects/HotelListning/HotelListning
+2024-04-02 10:04:39.347 +05:30 [INF] HTTP POST /api/Accounts/Login responded 200 in 147.3923 ms
+2024-04-02 12:21:46.589 +05:30 [WRN] No XML encryptor configured. Key {91415071-207c-4f98-99d4-51256170fa76} may be persisted to storage in unencrypted form.
+2024-04-02 12:21:47.076 +05:30 [INF] Now listening on: https://localhost:7062
+2024-04-02 12:21:47.102 +05:30 [INF] Now listening on: http://localhost:5284
+2024-04-02 12:21:47.103 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-02 12:21:47.103 +05:30 [INF] Hosting environment: Development
+2024-04-02 12:21:47.103 +05:30 [INF] Content root path: /Users/rupunj/Projects/HotelListning/HotelListning
+2024-04-02 12:22:03.900 +05:30 [INF] HTTP POST /api/accounts/Login responded 200 in 893.7009 ms
+2024-04-02 12:26:45.010 +05:30 [INF] Now listening on: https://localhost:7062
+2024-04-02 12:26:45.023 +05:30 [INF] Now listening on: http://localhost:5284
+2024-04-02 12:26:45.024 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-02 12:26:45.024 +05:30 [INF] Hosting environment: Development
+2024-04-02 12:26:45.024 +05:30 [INF] Content root path: /Users/rupunj/Projects/HotelListning/HotelListning
+2024-04-02 12:26:58.583 +05:30 [INF] HTTP GET /api/Countires responded 401 in 10.5198 ms
+2024-04-02 15:10:48.209 +05:30 [INF] HTTP POST /api/accounts/Login responded 200 in 878.4217 ms
+2024-04-02 15:11:18.503 +05:30 [INF] HTTP GET /api/Countires responded 401 in 11.6406 ms
+2024-04-02 15:11:43.295 +05:30 [INF] HTTP GET /api/Countires responded 401 in 2.7755 ms
+2024-04-02 15:11:44.677 +05:30 [INF] HTTP GET /api/Countires responded 401 in 0.1420 ms
+2024-04-02 15:12:34.067 +05:30 [INF] HTTP GET /api/Countires responded 200 in 97.8848 ms
+2024-04-02 15:12:35.876 +05:30 [INF] HTTP GET /api/Countires responded 200 in 126.1909 ms
+2024-04-02 15:26:33.218 +05:30 [INF] HTTP POST /api/accounts/Login responded 200 in 291097.2084 ms
+2024-04-02 16:44:03.801 +05:30 [INF] Now listening on: https://localhost:7062
+2024-04-02 16:44:03.814 +05:30 [INF] Now listening on: http://localhost:5284
+2024-04-02 16:44:03.814 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-02 16:44:03.815 +05:30 [INF] Hosting environment: Development
+2024-04-02 16:44:03.815 +05:30 [INF] Content root path: /Users/rupunj/Projects/HotelListning/HotelListning
+2024-04-02 16:45:58.185 +05:30 [INF] Now listening on: https://localhost:7062
+2024-04-02 16:45:58.199 +05:30 [INF] Now listening on: http://localhost:5284
+2024-04-02 16:45:58.200 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-02 16:45:58.200 +05:30 [INF] Hosting environment: Development
+2024-04-02 16:45:58.200 +05:30 [INF] Content root path: /Users/rupunj/Projects/HotelListning/HotelListning
+2024-04-02 16:46:00.390 +05:30 [INF] HTTP POST /api/accounts/Login responded 200 in 1429.6328 ms
+2024-04-02 16:46:55.524 +05:30 [INF] HTTP POST /api/accounts/RefreshToken responded 200 in 347.7279 ms

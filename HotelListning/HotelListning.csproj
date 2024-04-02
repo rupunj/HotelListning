@@ -20,6 +20,8 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,6 +32,8 @@
     <None Remove="Models\Hotel\" />
     <None Remove="Repository\" />
     <None Remove="Contracts\" />
+    <None Remove="Data\Configuration\" />
+    <None Remove="Models\User\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
@@ -39,5 +43,7 @@
     <Folder Include="Models\Hotel\" />
     <Folder Include="Repository\" />
     <Folder Include="Contracts\" />
+    <Folder Include="Data\Configuration\" />
+    <Folder Include="Models\User\" />
   </ItemGroup>
 </Project>
